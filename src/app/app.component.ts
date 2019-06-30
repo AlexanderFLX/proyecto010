@@ -11,7 +11,7 @@ export class AppComponent implements OnInit {
   title = 'proyecto010';
   
   private urlApi = 'https://jsonplaceholder.typicode.com/users';
-  private usuarios = null;
+  public usuarios = null;
 
   constructor(private http: HttpClient) { }
 
